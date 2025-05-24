@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "greeting": "Hej, jag heter",
+    "name": "Jan Pakos",
+    "title": "Mjukvaruutvecklare",
+    "description": "Jag är en dedikerad mjukvaruutvecklare med ett starkt fokus på att bygga moderna webbapplikationer. Min expertis omfattar att skapa effektiva, skalbara och användarcentrerade lösningar." 
+  },
+  "skills": {
+    "title": "Tekniska färdigheter",
+    "description": "Här är de teknologier jag jobbar med, från mina starkaste färdigheter till dem jag aktivt lär mig.",
+    "proficient": "Kunnig i",
+    "familiar": "Bekant med"
+  },
+  "projects": {
+    "title": "Min erfarenhet",
+    "description": "En samling projekt som jag har arbetat med och som visar mina färdigheter och min erfarenhet av programvaruutveckling."
+  },
+  "education": {
+    "title": "Utbildning & certifieringar",
+    "description": "Min akademiska bakgrund, kurser och certifieringar som har format min tekniska kunskap."
+  }
+}

@@ -1,9 +1,13 @@
 {
-  "hero": {
+    "button": {
+        "code-button": "Code",
+        "demo-button": "Demo"
+    },
+    "hero": {
     "greeting": "Hello, I'm",
     "name": "Jan Pakos",
     "title": "Software Engineer",
-    "description": "I am a dedicated software developer with a strong focus on building modern web applications. My expertise includes creating efficient, scalable, and user-centric solutions." 
+    "description": "I am a dedicated software developer with a strong focus on building modern web applications. My expertise includes creating efficient, scalable, and user-centric solutions. While I specialize in backend development with Python and Java, I am also proficient in frontend and full-stack development. I am open to exploring opportunities that align with my skills and interests. Additionally, I am an amateur fitness enthusiast and football player." 
   },
   "skills": {
     "title": "Technical Skills",
@@ -15,8 +19,53 @@
     "title": "My Experience",
     "description": "A showcase of projects I've worked on, demonstrating my skills and experience in software development."
   },
+  "project1": {
+    "project1-title": "",
+    "project1-description": ""
+  },
+  "project2": {
+    "project1-title": "",
+    "project1-description": ""
+  },
+  "project3": {
+    "project1-title": "",
+    "project1-description": ""
+  },
+  "project4": {
+    "project1-title": "",
+    "project1-description": ""
+  },
+  "project5": {
+    "project1-title": "",
+    "project1-description": ""
+  },
+  "project6": {
+    "project1-title": "",
+    "project1-description": ""
+  },
   "education": {
     "title": "Education & Certifications",
     "description": "My academic background, courses and certifications that shaped my technical knowledge."
+  },
+  "degreefinance": {
+    "title": "B.Sc. Business Administration (Finance)",
+    "institution": "Stockholm University",
+    "description": "I used Microsoft Excel for financial calculations, PowerPoint for presentations, and Word for collaborative writing during my studies. My curriculum covered management, financial statistics, and accounting. I also used R to build ARIMA models on time series data. My bachelor’s thesis analyzed historical stock data for statistically significant deviations from expectations."
+  },
+  "degreecs": {
+    "title": "Bachelor of Computer and Systems Sciences",
+    "institution": "Stockholm University",
+    "description": "I gained proficiency in designing and implementing programs using UML and Java, as well as in UI/UX design and databases with SQL, during these studies."
+  },
+  "coursecs50": {
+    "title": "CS50's Introduction to Computer Science",
+    "institution": "HarvardX (edx.org)",
+    "description": "An introduction to algorithms, data structures, web development, and more, using languages such as C, Python and SQL."
+  },
+  "coursecs50w": {
+    "title": "CS50's Web Programming with Python and JavaScript",
+    "institution": "HarvardX (edx.org)",
+    "description": "Web development with Django, React, and SQL. Topics include database design, scalability, security, and user experience."
   }
+  
 }

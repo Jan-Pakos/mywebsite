@@ -1,8 +1,15 @@
 import { useEffect, useState } from 'react';
 
+import { useTranslation } from 'react-i18next';
+
+
+  
+
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [showTypewriter, setShowTypewriter] = useState(false);
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     // Small delay to ensure smooth initial animation
@@ -24,7 +31,7 @@ const HeroSection = () => {
             : 'translate-y-8 opacity-0'
         }`}>
           <div className="space-y-2">
-            <h2 className="text-xl text-blue-400 font-medium">Hello, I'm</h2>
+            <h2 className="text-xl text-blue-400 font-medium">{t('hero.greeting')}</h2>
             <h1 className="text-5xl lg:text-6xl font-bold text-white">
               <span className="inline-block"> {/* Outer span for layout */}
                 <span
@@ -42,24 +49,13 @@ const HeroSection = () => {
               </span>
             </h1>
             <h2 className="text-2xl lg:text-3xl text-gray-300 font-light">
-              Software Engineer
+              {t('hero.title')}
             </h2>
           </div>
 
           <p className="text-lg text-gray-400 leading-relaxed max-w-lg">
-            I am a dedicated software developer with a strong focus on building modern web applications.
-            My expertise includes creating efficient, scalable, and user-centric solutions. While I specialize in backend development with Python and Java,
-            I am also proficient in frontend and full-stack development. I am open to exploring opportunities that align with my skills and interests.
-            Additionally, I am an amateur fitness enthusiast and football player.
+            {t('hero.description')}
           </p>
-
-         {/* 
-            <div className="flex space-x-4 pt-4">
-              <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-blue-500/25">
-                View My Work
-              </button>
-            </div> 
-        */}
 
 
         <div className={`flex justify-center transform transition-all duration-1000 ease-out ${
@@ -88,6 +84,7 @@ const HeroSection = () => {
             <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-purple-500 rounded-full animate-pulse"></div>
           </div>
         </div>
+      </div>
       </div>
       {/* The <style jsx> block has been removed */}
     </section>
