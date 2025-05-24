@@ -8,14 +8,14 @@ const EducationSection = () => {
     {
       title: "Bachelor of Computer and Systems Sciences",
       institution: "Stockholm University",
-      period: "2024 - 2026",
+      period: "2026",
       description: "I gained proficiency in designing and implementing programs using UML and Java, as well as in UI/UX design and databases with SQL, during these studies.",
       type: "degree"
     },
     {
       title: "B.Sc. Business Administration (Finance)",
       institution: "Stockholm University",
-      period: "2020-2024",
+      period: "2024",
       description: "I used Microsoft Excel for financial calculations, PowerPoint for presentations, and Word for collaborative writing during my studies. My curriculum covered management, financial statistics, and accounting. I also used R to build ARIMA models on time series data. My bachelor’s thesis analyzed historical stock data for statistically significant deviations from expectations.",
       type: "course"
     }
