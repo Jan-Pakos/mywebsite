@@ -1,0 +1,22 @@
+{
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Jan Pakos",
+    "title": "Software Engineer",
+    "description": "I am a dedicated software developer with a strong focus on building modern web applications. My expertise includes creating efficient, scalable, and user-centric solutions." 
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "description": "Here are the technologies I work with, from my strongest skills to those I'm actively learning.",
+    "proficient": "Proficient",
+    "familiar": "Familiar with"
+  },
+  "projects": {
+    "title": "My Experience",
+    "description": "A showcase of projects I've worked on, demonstrating my skills and experience in software development."
+  },
+  "education": {
+    "title": "Education & Certifications",
+    "description": "My academic background, courses and certifications that shaped my technical knowledge."
+  }
+}
