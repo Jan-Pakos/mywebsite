@@ -53,12 +53,12 @@ const HeroSection = () => {
             Additionally, I am an amateur fitness enthusiast and football player.
           </p>
 
-          <div className="flex space-x-4 pt-4">
-            <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-blue-500/25">
-              View My Work
-            </button>
-          </div>
-        </div>
+          // <div className="flex space-x-4 pt-4">
+           // <button className="px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-blue-500/25">
+             // View My Work
+           // </button>
+          // </div>
+        // </div>
 
         <div className={`flex justify-center transform transition-all duration-1000 ease-out ${
           isVisible
