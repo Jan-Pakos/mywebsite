@@ -1,26 +1,22 @@
 import { useEffect, useRef, useState } from 'react';
-import { Code, Database, FileCode, GitBranch, Terminal, Globe, Container, Cloud, Network, Zap, Cpu } from 'lucide-react';
+import { Code, Database, FileCode, GitBranch, Terminal, Globe, Container, Cloud, Network, Zap, Cpu, Database, Coffee, Zap } from 'lucide-react';
 
 const SkillsSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
 
   const proficientSkills = [
-    { name: 'JavaScript', icon: Code },
     { name: 'TypeScript', icon: FileCode },
-    { name: 'React', icon: Globe },
     { name: 'Node.js', icon: Terminal },
     { name: 'Python', icon: Code },
-    { name: 'Git', icon: GitBranch }
+    { name: 'Git', icon: GitBranch },
+    { name: 'SQL', icon: Database },
+    { name: 'Java', icon: Coffee },
   ];
 
   const familiarSkills = [
-    { name: 'Vue.js', icon: Globe },
-    { name: 'Docker', icon: Container },
-    { name: 'AWS', icon: Cloud },
-    { name: 'GraphQL', icon: Network },
-    { name: 'MongoDB', icon: Database },
-    { name: 'Rust', icon: Cpu }
+    { name: 'React', icon: Globe },
+    { name: 'Flask', icon: Zap },
   ];
 
   useEffect(() => {
