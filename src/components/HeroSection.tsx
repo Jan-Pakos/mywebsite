@@ -16,7 +16,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800">
+
       <section className="min-h-screen flex items-center justify-center pt-20 px-6">
         <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
           <div className={`space-y-6 transform transition-all duration-1000 ease-out ${
@@ -103,7 +103,7 @@ const HeroSection = () => {
           animation: float 3s ease-in-out infinite;
         }
       `}</style>
-    </div>
+
   );
 };
 
