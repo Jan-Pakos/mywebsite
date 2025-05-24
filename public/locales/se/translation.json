@@ -1,22 +1,71 @@
 {
-  "hero": {
+    "button": {
+        "code-button": "Kod",
+        "demo-button": "Demo"
+    },
+    "hero": {
     "greeting": "Hej, jag heter",
     "name": "Jan Pakos",
     "title": "Mjukvaruutvecklare",
-    "description": "Jag är en dedikerad mjukvaruutvecklare med ett starkt fokus på att bygga moderna webbapplikationer. Min expertis omfattar att skapa effektiva, skalbara och användarcentrerade lösningar." 
+    "description": "Jag är en dedikerad mjukvaruutvecklare med ett starkt fokus på att bygga moderna webbapplikationer. Min expertis omfattar att skapa effektiva, skalbara och användarcentrerade lösningar. Även om jag är specialiserad på backend-utveckling med Python och Java, är jag också skicklig på frontend- och fullstack-utveckling. Jag är öppen för att utforska möjligheter som ligger i linje med mina färdigheter och intressen. Dessutom är jag en amatörmässig fitnessentusiast och fotbollsspelare." 
   },
   "skills": {
     "title": "Tekniska färdigheter",
-    "description": "Här är de teknologier jag jobbar med, från mina starkaste färdigheter till dem jag aktivt lär mig.",
+    "description": "Här är de teknologier jag arbetar med, från mina starkaste färdigheter till dem jag aktivt lär mig.",
     "proficient": "Kunnig i",
-    "familiar": "Bekant med"
+    "familiar": "bekant med"
   },
   "projects": {
-    "title": "Min erfarenhet",
+    "title": "Min Erfarenhet",
     "description": "En samling projekt som jag har arbetat med och som visar mina färdigheter och min erfarenhet av programvaruutveckling."
   },
+  "project1": {
+    "project1-title": "Head of Web Dev för Systemvetardagen",
+    "project1-description": "Omfattande plattform för arbetsmarknadsdagar för Stockholms universitetsstudenter och rekryterande företag med företagsprofiler och evenemangsinformation med ett tvåspråkigt gränssnitt"
+  },
+  "project2": {
+    "project1-title": "Privat e-postklient",
+    "project1-description": "En smidig webbaserad meddelandeplattform där användarna kan skicka, ta emot och arkivera meddelanden på ett och samma ställe."
+  },
+  "project3": {
+    "project1-title": "Auktion webbplats",
+    "project1-description": "Webbplats för auktioner som gör det möjligt för användare att skapa konton, lägga ut föremål på auktion, lägga bud och hantera sina auktionsaktiviteter."
+  },
+  "project4": {
+    "project1-title": "Hundregistret",
+    "project1-description": "Ett Java-program som gör det möjligt för användare att registrera ägare och deras hundar och hålla reda på relationerna mellan dem, textbaserat gränssnitt."
+  },
+  "project5": {
+    "project1-title": "Path Finder",
+    "project1-description": "Utvecklade en robust Java-applikation med ett intuitivt GUI för geografisk pathfinding och visualisering. Verktyget gör det möjligt för användare att importera kartbilder, digitalt representera städer och sammanlänkade rutter och effektivt beräkna de kortaste eller mest optimala vägarna mellan valda platser."
+  },
+  "project6": {
+    "project1-title": "",
+    "project1-description": ""
+  },
   "education": {
-    "title": "Utbildning & certifieringar",
+    "title": "Utbildning & Certifieringar",
     "description": "Min akademiska bakgrund, kurser och certifieringar som har format min tekniska kunskap."
+  },
+  "degreefinance": {
+    "title": "Kandidatexamen i företagsekonomi (finans)",
+    "institution": "Stockholms Universitet",
+    "description": "Under mina studier använde jag Microsoft Excel för finansiella beräkningar, PowerPoint för presentationer och Word för att skriva tillsammans med andra. Min läroplan omfattade företagsledning, finansiell statistik och redovisning. Jag använde också R för att bygga ARIMA-modeller på tidsseriedata. I min kandidatuppsats analyserade jag historiska aktiedata med avseende på statistiskt signifikanta avvikelser från förväntningarna."
+  },
+  "degreecs": {
+    "title": "Kandidatexamen i data- och systemvetenskap",
+    "institution": "Stockholms Universitet",
+    "description": "Under dessa studier fick jag kunskaper i att utforma och implementera program med hjälp av UML och Java, samt i UI/UX-design och databaser med SQL."
+  },
+  "coursecs50": {
+    "title": "CS50's Introduction to Computer Science",
+    "institution": "HarvardX (edx.org)",
+    "description": "En introduktion till algoritmer, datastrukturer, webbutveckling med mera med hjälp av språk som C, Python och SQL."
+  },
+  "coursecs50w": {
+    "title": "CS50's Web Programming with Python and JavaScript",
+    "institution": "HarvardX (edx.org)",
+    "description": "Webbutveckling med Django, React och SQL. Ämnena inkluderar databasdesign, skalbarhet, säkerhet och användarupplevelse."
   }
+  
 }
