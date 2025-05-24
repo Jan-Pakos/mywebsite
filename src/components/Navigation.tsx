@@ -9,9 +9,9 @@ const Navigation = () => {
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   const languages = [
-    { code: 'en', label: 'English', flag: '🇺🇸' },
-    { code: 'sv', label: 'Svenska', flag: '🇸🇪' },
-    { code: 'es', label: 'Español', flag: '🇪🇸' }
+    { code: 'en', label: 'English'},
+    { code: 'se', label: 'Svenska'},
+    { code: 'pl', label: 'Polski'}
   ];
 
   const currentLanguage = languages.find(lang => lang.code === i18n.language) || languages[0];
@@ -62,7 +62,7 @@ const Navigation = () => {
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
                 className="flex items-center space-x-2 min-w-[100px]"
               >
-                <span>{currentLanguage.flag}</span>
+                
                 <span className="text-sm font-medium">{currentLanguage.code.toUpperCase()}</span>
                 <ChevronDown 
                   className={`h-4 w-4 transition-transform duration-200 ${
@@ -90,7 +90,7 @@ const Navigation = () => {
                           : 'text-gray-700 hover:bg-gray-50'
                       }`}
                     >
-                      <span className="text-lg">{language.flag}</span>
+                      
                       <span>{language.label}</span>
                       {currentLanguage.code === language.code && (
                         <span className="ml-auto text-blue-600">✓</span>
