@@ -62,7 +62,7 @@ const ProjectsSection = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800">
+
       <section ref={sectionRef} className="py-20 px-6">
         <div className="container mx-auto">
           <div className={`text-center mb-16 transform transition-all duration-1000 ease-out ${
@@ -145,7 +145,7 @@ const ProjectsSection = () => {
           </div>
         </div>
       </section>
-    </div>
+
   );
 };
 
