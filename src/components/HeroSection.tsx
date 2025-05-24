@@ -17,7 +17,7 @@ const HeroSection = () => {
             <h1 className="text-5xl lg:text-6xl font-bold text-white">
               <span className="inline-block overflow-hidden border-r-2 border-blue-400 animate-pulse">
                 <span className={isVisible ? 'typewriter' : ''}>
-                  Your Name
+                  Jan Pakos
                 </span>
               </span>
             </h1>
@@ -27,8 +27,10 @@ const HeroSection = () => {
           </div>
           
           <p className="text-lg text-gray-400 leading-relaxed max-w-lg">
-            Passionate software engineer with expertise in modern web technologies. 
-            I love creating efficient, scalable solutions and bringing ideas to life through code.
+            I am a dedicated software developer with a strong focus on building modern web applications. 
+            My expertise includes creating efficient, scalable, and user-centric solutions. While I specialize in backend development with Python and Java, 
+            I am also proficient in frontend and full-stack development. I am open to exploring opportunities that align with my skills and interests. 
+            Additionally, I am an amateur fitness enthusiast and football player.
           </p>
           
           <div className="flex space-x-4 pt-4">
@@ -43,7 +45,7 @@ const HeroSection = () => {
             <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1 animate-float">
               <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" 
+                  src="https://avatars.githubusercontent.com/u/144565382?v=4" 
                   alt="Profile" 
                   className="w-72 h-72 rounded-full object-cover"
                 />
