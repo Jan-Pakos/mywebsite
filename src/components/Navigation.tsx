@@ -27,7 +27,7 @@ const Navigation = () => {
           </Button>
           
           <a 
-            href="https://github.com" 
+            href="https://github.com/Jan-Pakos" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-blue-400 transition-colors hover:scale-110 transform"
@@ -36,7 +36,7 @@ const Navigation = () => {
           </a>
           
           <a 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/jan-p-b065a2127?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-white hover:text-blue-400 transition-colors hover:scale-110 transform"
