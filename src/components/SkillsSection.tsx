@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { GitBranch,Coffee, } from 'lucide-react';
+import { GitBranch,Coffee, Database } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 import TypescriptIcon from '../icons/typescript.svg';
@@ -8,7 +8,6 @@ import PythonIcon from '../icons/python.svg';
 import ReactIcon from '../icons/react.svg';
 import FlaskIcon from '../icons/flask.svg';
 import NodejsIcon from '../icons/node-js.svg';
-import SQLIcon from '../icons/sql.svg';
 
 
 
@@ -22,7 +21,7 @@ const SkillsSection = () => {
     { name: 'TypeScript', icon: TypescriptIcon },
     { name: 'Django', icon: DjangoIcon },
     { name: 'Git', icon: GitBranch },
-    { name: 'SQL', icon: SQLIcon },
+    { name: 'SQL', icon: Database },
     { name: 'Java', icon: Coffee },
     { name: 'Python', icon: PythonIcon },
   ];
