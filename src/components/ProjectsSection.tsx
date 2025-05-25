@@ -60,7 +60,7 @@ const ProjectsSection = () => {
                 : 'translate-y-12 opacity-0'
             }`}
             style={{
-              transitionDelay: `${0.2 + 0 * 0.15}s`
+              transitionDelay: `0.8s`
             }}
           >
             <div className="relative overflow-hidden">
@@ -112,7 +112,7 @@ const ProjectsSection = () => {
                 : 'translate-y-12 opacity-0'
             }`}
             style={{
-              transitionDelay: `${0.2 + 1 * 0.15}s`
+              transitionDelay: `0.8s`
             }}
           >
             <div className="relative overflow-hidden">
@@ -164,7 +164,7 @@ const ProjectsSection = () => {
                 : 'translate-y-12 opacity-0'
             }`}
             style={{
-              transitionDelay: `${0.2 + 2 * 0.15}s`
+              transitionDelay: `0.8s`
             }}
           >
             <div className="relative overflow-hidden">
@@ -217,7 +217,7 @@ const ProjectsSection = () => {
                 : 'translate-y-12 opacity-0'
             }`}
             style={{
-              transitionDelay: `${0.2 + 3 * 0.15}s`
+              transitionDelay: `0.8s`
             }}
           >
             <div className="relative overflow-hidden">
@@ -271,7 +271,7 @@ const ProjectsSection = () => {
                 : 'translate-y-12 opacity-0'
             }`}
             style={{
-              transitionDelay: `${0.2 + 4 * 0.15}s`
+              transitionDelay: `0.8s`
             }}
           >
             <div className="relative overflow-hidden">
