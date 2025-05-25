@@ -73,7 +73,7 @@ const Navigation = () => {
               
               {/* Dropdown Menu */}
               <div 
-                className={`absolute right-0 mt-2 w-48 backdrop-blur-m rounded-md shadow-lg border border-gray-200 transition-all duration-200 ease-out origin-top-right ${
+                className={`absolute right-0 mt-2 w-48 backdrop-blur-md rounded-md shadow-lg border border-gray-200 transition-all duration-200 ease-out origin-top-right ${
                   isDropdownOpen 
                     ? 'opacity-100 scale-100 translate-y-0' 
                     : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'
