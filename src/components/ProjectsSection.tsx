@@ -305,8 +305,8 @@ const ProjectsSection = () => {
               
               <div className="flex space-x-3">
                 <Button 
-                  size="sm" 
-                  variant="outline" 
+                  size="sm"
+                  variant="ghost"  
                   className="
                   px-3 py-1
                   bg-blue-600/20
