@@ -75,7 +75,7 @@ const SkillsSection = () => {
                           : 'translate-y-8 opacity-0'
                       }`}
                       style={{
-                        transitionDelay: `${0.4 + index * 0.1}s`,
+                        transitionDelay: `0.4s`,
                         transitionDuration: '700ms'
                       }}
                     >
@@ -106,7 +106,7 @@ const SkillsSection = () => {
                           : 'translate-y-8 opacity-0'
                       }`}
                       style={{
-                        transitionDelay: `${1.0 + index * 0.1}s`,
+                        transitionDelay: `0.4s`,
                         transitionDuration: '700ms'
                       }}
                     >
