@@ -72,7 +72,7 @@ const SkillsSection = () => {
               isVisible 
                 ? 'translate-y-0 opacity-100' 
                 : 'translate-y-12 opacity-0'
-            }`} style={{transitionDelay: '0.2s'}}>
+            }`} style={{transitionDelay: '0.1s'}}>
               <h3 className="text-2xl font-bold text-white mb-8 text-center">{t('skills.proficient')}</h3>
               <div className="grid grid-cols-2 gap-4">
                 {proficientSkills.map((skill, index) => {
@@ -103,7 +103,7 @@ const SkillsSection = () => {
               isVisible 
                 ? 'translate-y-0 opacity-100' 
                 : 'translate-y-12 opacity-0'
-            }`} style={{transitionDelay: '0.3s'}}>
+            }`} style={{transitionDelay: '0.1s'}}>
               <h3 className="text-2xl font-bold text-white mb-8 text-center">{t('skills.familiar')}</h3>
               <div className="grid grid-cols-2 gap-4">
                 {familiarSkills.map((skill, index) => {
