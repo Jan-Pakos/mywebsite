@@ -85,7 +85,7 @@ const ProjectsSection = () => {
                   React
                 </span>
                 <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
-                  Node.js
+                  Typescript
                 </span>
               </div>
               
@@ -134,10 +134,10 @@ const ProjectsSection = () => {
               
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
-                  JavaScript
+                  Django
                 </span>
                 <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
-                  Express
+                  SQL
                 </span>
               </div>
               
@@ -186,10 +186,10 @@ const ProjectsSection = () => {
               
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
-                  PHP
+                  Django
                 </span>
                 <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
-                  MySQL
+                  SQL
                 </span>
               </div>
               
@@ -254,8 +254,8 @@ const ProjectsSection = () => {
                   asChild
                 >
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <Github size={16} className="mr-2" />
-                    Code
+                    {t('button.code-button')}
+                   
                   </a>
                 </Button>
                 
@@ -296,7 +296,7 @@ const ProjectsSection = () => {
                   Java
                 </span>
                 <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
-                  GUI
+                  JavaFX
                 </span>
                 <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
                   Algorithms
