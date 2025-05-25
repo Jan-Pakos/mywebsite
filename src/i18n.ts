@@ -1,38 +1,34 @@
+// i18n.ts or i18n.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import LanguageDetector from 'i18next-browser-languagedetector';
+
+// Import your translation files
+import enTranslations from './translations/en.json';
+import svTranslations from './translations/se.json';
+import plTranslations from './translations/pl.json';
+
+const resources = {
+  en: {
+    translation: enTranslations
+  },
+  sv: {
+    translation: svTranslations
+  },
+  es: {
+    translation: plTranslations
+  }
+};
 
 i18n
-  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    resources,
+    lng: 'en', // default language
     fallbackLng: 'en',
-    debug: process.env.NODE_ENV === 'development',
     
     interpolation: {
-      escapeValue: false,
-    },
-    
-    resources: {
-      en: {
-        translation: {} // Will be loaded from public/locales
-      },
-      se: {
-        translation: {}
-      },
-      pl: {
-        translation: {}
-      }
-    },
-    
-    backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
-    },
-    
-    detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
-      caches: ['localStorage'],
-    },
+      escapeValue: false // React already does escaping
+    }
   });
 
 export default i18n;
