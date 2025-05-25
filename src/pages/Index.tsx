@@ -7,7 +7,7 @@ import EducationSection from '@/components/EducationSection';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-800">
+    <div className="min-h-screen bg-gradient-to-br from-indigo-700 via-black to-blue-900">
       <Navigation />
       <HeroSection />
       <SkillsSection />
