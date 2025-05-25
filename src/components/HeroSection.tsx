@@ -1,9 +1,5 @@
 import { useEffect, useState } from 'react';
-
 import { useTranslation } from 'react-i18next';
-
-
-  
 
 const HeroSection = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -23,8 +19,9 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center pt-20 px-6 text-white font-sans"> {/* Added bg-gray-900, text-white, font-sans for context */}
+    <section className="min-h-screen flex items-center justify-center pt-20 px-6 text-white font-sans">
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center">
+        {/* Left Column - Text Content */}
         <div className={`space-y-6 transform transition-all duration-1000 ease-out ${
           isVisible
             ? 'translate-y-0 opacity-100'
@@ -33,16 +30,13 @@ const HeroSection = () => {
           <div className="space-y-2">
             <h2 className="text-xl text-blue-400 font-medium">{t('hero.greeting')}</h2>
             <h1 className="text-5xl lg:text-6xl font-bold text-white">
-              <span className="inline-block"> {/* Outer span for layout */}
+              <span className="inline-block">
                 <span
                   className={`
                     ${showTypewriter ? 'animate-typewriter overflow-hidden whitespace-nowrap' : 'opacity-0'} 
                     ${showTypewriter ? 'border-r-2 border-blue-400' : ''}
                     inline-block 
                   `}
-                  // The 'animate-typewriter' class will be defined in tailwind.config.js
-                  // 'overflow-hidden' and 'whitespace-nowrap' are crucial for the effect
-                  // Conditionally apply border to act as cursor only when typing
                 >
                   Jan Pakos
                 </span>
@@ -56,37 +50,34 @@ const HeroSection = () => {
           <p className="text-lg text-gray-400 leading-relaxed max-w-lg">
             {t('hero.description')}
           </p>
+        </div>
 
-
-        <div className={`flex justify-center transform transition-all duration-1000 ease-out ${
+        {/* Right Column - Profile Picture */}
+        <div className={`flex justify-center lg:justify-end transform transition-all duration-1000 ease-out ${
           isVisible
             ? 'translate-y-0 opacity-100'
             : 'translate-y-12 opacity-0'
         }`} style={{ transitionDelay: '0.3s' }}>
           <div className="relative">
-            {/* The 'animate-float' class will be defined in tailwind.config.js */}
             <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1 animate-float">
               <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
                 <img
                   src="https://avatars.githubusercontent.com/u/144565382?v=4"
-                  alt="Profile Jan Pakos" // Improved alt text
+                  alt="Profile Jan Pakos"
                   className="w-72 h-72 rounded-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;
-                    target.onerror = null; // Prevent infinite loop if placeholder also fails
-                    target.src = 'https://placehold.co/288x288/374151/E5E7EB?text=Profile'; // Placeholder
+                    target.onerror = null;
+                    target.src = 'https://placehold.co/288x288/374151/E5E7EB?text=Profile';
                   }}
                 />
               </div>
             </div>
-            {/* These are standard Tailwind animations, no custom config needed for ping/pulse */}
             <div className="absolute -top-4 -right-4 w-8 h-8 bg-blue-500 rounded-full animate-ping"></div>
             <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-purple-500 rounded-full animate-pulse"></div>
           </div>
         </div>
       </div>
-      </div>
-      {/* The <style jsx> block has been removed */}
     </section>
   );
 };
