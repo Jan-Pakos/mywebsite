@@ -50,6 +50,8 @@ const SkillsSection = () => {
     return () => observer.disconnect();
   }, []);
 
+  
+  
   return (
 
       <section ref={sectionRef} className="py-20 px-6">
@@ -75,7 +77,7 @@ const SkillsSection = () => {
               <h3 className="text-2xl font-bold text-white mb-8 text-center">{t('skills.proficient')}</h3>
               <div className="grid grid-cols-2 gap-4">
                 {proficientSkills.map((skill, index) => {
-                  const IconComponent = skill.icon;
+                  const IconComponent = skill.icon as React.FC<React.SVGProps<SVGSVGElement>>;
                   return (
                     <div 
                       key={skill.name} 
@@ -106,7 +108,8 @@ const SkillsSection = () => {
               <h3 className="text-2xl font-bold text-white mb-8 text-center">{t('skills.familiar')}</h3>
               <div className="grid grid-cols-2 gap-4">
                 {familiarSkills.map((skill, index) => {
-                  const IconComponent = skill.icon;
+                const IconComponent = skill.icon as React.FC<React.SVGProps<SVGSVGElement>>;
+                  
                   return (
                     <div 
                       key={skill.name} 
