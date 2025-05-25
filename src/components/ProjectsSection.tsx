@@ -96,7 +96,7 @@ const ProjectsSection = () => {
                   className="flex-1 border-gray-600 hover:border-blue-400 hover:bg-blue-600/10 text-white"
                   asChild
                 >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Systemvetardagen/Systemvetardagen2025" target="_blank" rel="noopener noreferrer">
                     {t('button.code-button')}
                   </a>
                 </Button>
@@ -222,7 +222,7 @@ const ProjectsSection = () => {
           >
             <div className="relative overflow-hidden">
               <img 
-                src="/api/placeholder/400/300" 
+                src="./images/dogregister.png" 
                 alt={t('project4.project1-title')}
                 className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
               />
