@@ -45,7 +45,9 @@
   },
   "education": {
     "title": "Education & Certifications",
-    "description": "My academic background, courses and certifications that shaped my technical knowledge."
+    "description": "My academic background, courses and certifications that shaped my technical knowledge.",
+    "formaleducation": "Formal Education",
+    "courses-certifications": "Courses and Certifications"
   },
   "degreefinance": {
     "title": "B.Sc. Business Administration (Finance)",
