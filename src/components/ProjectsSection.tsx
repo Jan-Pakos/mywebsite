@@ -307,7 +307,19 @@ const ProjectsSection = () => {
                 <Button 
                   size="sm" 
                   variant="outline" 
-                  className="flex-1 border-gray-600 hover:border-blue-400 hover:bg-blue-600/10 text-white"
+                  className="
+                  px-3 py-1
+                  bg-blue-600/20
+                  text-blue-400
+                  rounded-full
+                  text-xs
+                  font-medium
+                  border
+                  flex-1
+                  hover:bg-blue-600/30
+                  hover:text-blue-300
+                  hover:border-blue-600/40
+                "
                   asChild
                 >
                   <a href="#" target="_blank" rel="noopener noreferrer">
