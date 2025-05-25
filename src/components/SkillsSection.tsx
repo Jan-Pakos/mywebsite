@@ -1,9 +1,12 @@
 import { useEffect, useRef, useState } from 'react';
 import { Code, Database, FileCode, GitBranch, Terminal, Globe, Coffee, Zap } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const SkillsSection = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
+
+  const { t } = useTranslation();
 
   const proficientSkills = [
     { name: 'TypeScript', icon: FileCode },
@@ -46,9 +49,9 @@ const SkillsSection = () => {
               ? 'translate-y-0 opacity-100' 
               : 'translate-y-8 opacity-0'
           }`}>
-            <h2 className="text-4xl font-bold text-white mb-4">Technical Skills</h2>
+            <h2 className="text-4xl font-bold text-white mb-4">{t('skills.title')}</h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Here are the technologies I work with, from my strongest skills to those I'm actively learning.
+              {t('skills.description')}
             </p>
           </div>
 
@@ -59,7 +62,7 @@ const SkillsSection = () => {
                 ? 'translate-y-0 opacity-100' 
                 : 'translate-y-12 opacity-0'
             }`} style={{transitionDelay: '0.2s'}}>
-              <h3 className="text-2xl font-bold text-white mb-8 text-center">Proficient</h3>
+              <h3 className="text-2xl font-bold text-white mb-8 text-center">{t('skills.proficient')}</h3>
               <div className="grid grid-cols-2 gap-4">
                 {proficientSkills.map((skill, index) => {
                   const IconComponent = skill.icon;
@@ -90,7 +93,7 @@ const SkillsSection = () => {
                 ? 'translate-y-0 opacity-100' 
                 : 'translate-y-12 opacity-0'
             }`} style={{transitionDelay: '0.3s'}}>
-              <h3 className="text-2xl font-bold text-white mb-8 text-center">Familiar</h3>
+              <h3 className="text-2xl font-bold text-white mb-8 text-center">{t('skills.familiar')}</h3>
               <div className="grid grid-cols-2 gap-4">
                 {familiarSkills.map((skill, index) => {
                   const IconComponent = skill.icon;
