@@ -43,45 +43,6 @@
     "project1-title": "",
     "project1-description": ""
   },
-  "noProjects": "No projects found. Please check your translation file.",
-    "items": [
-      {
-        "id": "head-of-web-dev-systemvetardagen",
-        "title": "Head of Web Dev for Systemvetardagen",
-        "description": "Comprehensive job fair platform serving Stockholm university students and recruiting companies featuring company profiles and event information with a bilingual interface.",
-        "image": "./images/systemvetardagen.jpeg",
-        "tags": ["React", "Node.js", "MongoDB", "Stripe"],
-        "githubUrl": "https://github.com/yourname/ecommerce-platform",
-        "demoUrl": "https://your-ecommerce-demo.com"
-      },
-      {
-        "id": "task-management",
-        "title": "Task Management App",
-        "description": "A collaborative project management tool with real-time updates and team collaboration features.",
-        "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop",
-        "tags": ["Vue.js", "Express", "Socket.io", "PostgreSQL"],
-        "githubUrl": "https://github.com/yourname/task-manager",
-        "demoUrl": "https://your-task-manager-demo.com"
-      },
-      {
-        "id": "weather-dashboard",
-        "title": "Weather Dashboard",
-        "description": "A responsive weather application with location-based forecasts and interactive charts.",
-        "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop",
-        "tags": ["JavaScript", "Chart.js", "OpenWeather API"],
-        "githubUrl": "https://github.com/yourname/weather-dashboard",
-        "demoUrl": "https://your-weather-demo.com"
-      },
-      {
-        "id": "portfolio-website",
-        "title": "Portfolio Website",
-        "description": "A modern, responsive portfolio website built with React and TypeScript featuring smooth animations and dark theme.",
-        "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop",
-        "tags": ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-        "githubUrl": "https://github.com/yourname/portfolio",
-        "demoUrl": "https://your-portfolio.com"
-      }
-    ],
   "education": {
     "title": "Education & Certifications",
     "description": "My academic background, courses and certifications that shaped my technical knowledge."
