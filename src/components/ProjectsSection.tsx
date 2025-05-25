@@ -19,22 +19,6 @@ const ProjectsSection = () => {
 
   const { t } = useTranslation();
 
-  // Get projects from translation file
-  const getProjects = () => {
-    try {
-      // Get the projects array from translations
-      const projectsData = t('projects.items', { returnObjects: true });
-      
-      // Ensure it's an array (fallback to empty array if not found)
-      return Array.isArray(projectsData) ? projectsData : [];
-    } catch (error) {
-      console.error('Error loading projects from translations:', error);
-      return [];
-    }
-  };
-
-  const projects = getProjects();
-
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -68,79 +52,383 @@ const ProjectsSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <div 
-              key={project.id || index} 
-              className={`group relative bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-700 ease-out hover:scale-105 transform ${
-                isVisible 
-                  ? 'translate-y-0 opacity-100' 
-                  : 'translate-y-12 opacity-0'
-              }`}
-              style={{
-                transitionDelay: `${0.2 + index * 0.15}s`
-              }}
-            >
-              <div className="relative overflow-hidden">
-                <img 
-                  src={project.image} 
-                  alt={project.title}
-                  className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300"></div>
+          {/* Project 1 */}
+          <div 
+            className={`group relative bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-700 ease-out hover:scale-105 transform ${
+              isVisible 
+                ? 'translate-y-0 opacity-100' 
+                : 'translate-y-12 opacity-0'
+            }`}
+            style={{
+              transitionDelay: `${0.2 + 0 * 0.15}s`
+            }}
+          >
+            <div className="relative overflow-hidden">
+              <img 
+                src="/api/placeholder/400/300" 
+                alt={t('project1.project1-title')}
+                className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300"></div>
+            </div>
+            
+            <div className="p-6">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
+                {t('project1.project1-title')}
+              </h3>
+              <p className="text-gray-400 mb-4 text-sm leading-relaxed">
+                {t('project1.project1-description')}
+              </p>
+              
+              <div className="flex flex-wrap gap-2 mb-6">
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  React
+                </span>
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  Node.js
+                </span>
               </div>
               
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
-                  {project.title}
-                </h3>
-                <p className="text-gray-400 mb-4 text-sm leading-relaxed">
-                  {project.description}
-                </p>
-                
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {project.tags?.map((tag) => (
-                    <span 
-                      key={tag} 
-                      className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-                
-                <div className="flex space-x-3">
-                  <Button 
-                    size="sm" 
-                    variant="outline" 
-                    className="flex-1 border-gray-600 hover:border-blue-400 hover:bg-blue-600/10 text-white"
-                    asChild
-                  >
-                    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                      <Github size={16} className="mr-2" />
-                      {t('projects.buttons.code')}
-                    </a>
-                  </Button>
-                  <Button 
-                    size="sm" 
-                    className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
-                    asChild
-                  >
-                    <a href={project.demoUrl} target="_blank" rel="noopener noreferrer">
-                      {t('projects.buttons.demo')}
-                    </a>
-                  </Button>
-                </div>
+              <div className="flex space-x-3">
+                <Button 
+                  size="sm" 
+                  variant="outline" 
+                  className="flex-1 border-gray-600 hover:border-blue-400 hover:bg-blue-600/10 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <Github size={16} className="mr-2" />
+                    Code
+                  </a>
+                </Button>
+                <Button 
+                  size="sm" 
+                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Demo
+                  </a>
+                </Button>
               </div>
             </div>
-          ))}
-        </div>
-
-        {/* Show message if no projects found */}
-        {projects.length === 0 && (
-          <div className="text-center text-gray-400">
-            <p>{t('projects.noProjects', 'No projects found. Please check your translation file.')}</p>
           </div>
-        )}
+
+          {/* Project 2 */}
+          <div 
+            className={`group relative bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-700 ease-out hover:scale-105 transform ${
+              isVisible 
+                ? 'translate-y-0 opacity-100' 
+                : 'translate-y-12 opacity-0'
+            }`}
+            style={{
+              transitionDelay: `${0.2 + 1 * 0.15}s`
+            }}
+          >
+            <div className="relative overflow-hidden">
+              <img 
+                src="/api/placeholder/400/300" 
+                alt={t('project2.project1-title')}
+                className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300"></div>
+            </div>
+            
+            <div className="p-6">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
+                {t('project2.project1-title')}
+              </h3>
+              <p className="text-gray-400 mb-4 text-sm leading-relaxed">
+                {t('project2.project1-description')}
+              </p>
+              
+              <div className="flex flex-wrap gap-2 mb-6">
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  JavaScript
+                </span>
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  Express
+                </span>
+              </div>
+              
+              <div className="flex space-x-3">
+                <Button 
+                  size="sm" 
+                  variant="outline" 
+                  className="flex-1 border-gray-600 hover:border-blue-400 hover:bg-blue-600/10 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <Github size={16} className="mr-2" />
+                    Code
+                  </a>
+                </Button>
+                <Button 
+                  size="sm" 
+                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Demo
+                  </a>
+                </Button>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 3 */}
+          <div 
+            className={`group relative bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-700 ease-out hover:scale-105 transform ${
+              isVisible 
+                ? 'translate-y-0 opacity-100' 
+                : 'translate-y-12 opacity-0'
+            }`}
+            style={{
+              transitionDelay: `${0.2 + 2 * 0.15}s`
+            }}
+          >
+            <div className="relative overflow-hidden">
+              <img 
+                src="/api/placeholder/400/300" 
+                alt={t('project3.project1-title')}
+                className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300"></div>
+            </div>
+            
+            <div className="p-6">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
+                {t('project3.project1-title')}
+              </h3>
+              <p className="text-gray-400 mb-4 text-sm leading-relaxed">
+                {t('project3.project1-description')}
+              </p>
+              
+              <div className="flex flex-wrap gap-2 mb-6">
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  PHP
+                </span>
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  MySQL
+                </span>
+              </div>
+              
+              <div className="flex space-x-3">
+                <Button 
+                  size="sm" 
+                  variant="outline" 
+                  className="flex-1 border-gray-600 hover:border-blue-400 hover:bg-blue-600/10 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <Github size={16} className="mr-2" />
+                    Code
+                  </a>
+                </Button>
+                <Button 
+                  size="sm" 
+                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Demo
+                  </a>
+                </Button>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 4 */}
+          <div 
+            className={`group relative bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-700 ease-out hover:scale-105 transform ${
+              isVisible 
+                ? 'translate-y-0 opacity-100' 
+                : 'translate-y-12 opacity-0'
+            }`}
+            style={{
+              transitionDelay: `${0.2 + 3 * 0.15}s`
+            }}
+          >
+            <div className="relative overflow-hidden">
+              <img 
+                src="/api/placeholder/400/300" 
+                alt={t('project4.project1-title')}
+                className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300"></div>
+            </div>
+            
+            <div className="p-6">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
+                {t('project4.project1-title')}
+              </h3>
+              <p className="text-gray-400 mb-4 text-sm leading-relaxed">
+                {t('project4.project1-description')}
+              </p>
+              
+              <div className="flex flex-wrap gap-2 mb-6">
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  Java
+                </span>
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  OOP
+                </span>
+              </div>
+              
+              <div className="flex space-x-3">
+                <Button 
+                  size="sm" 
+                  variant="outline" 
+                  className="flex-1 border-gray-600 hover:border-blue-400 hover:bg-blue-600/10 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <Github size={16} className="mr-2" />
+                    Code
+                  </a>
+                </Button>
+                <Button 
+                  size="sm" 
+                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Demo
+                  </a>
+                </Button>
+              </div>
+            </div>
+          </div>
+
+          {/* Project 5 */}
+          <div 
+            className={`group relative bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-700 ease-out hover:scale-105 transform ${
+              isVisible 
+                ? 'translate-y-0 opacity-100' 
+                : 'translate-y-12 opacity-0'
+            }`}
+            style={{
+              transitionDelay: `${0.2 + 4 * 0.15}s`
+            }}
+          >
+            <div className="relative overflow-hidden">
+              <img 
+                src="/api/placeholder/400/300" 
+                alt={t('project5.project1-title')}
+                className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300"></div>
+            </div>
+            
+            <div className="p-6">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
+                {t('project5.project1-title')}
+              </h3>
+              <p className="text-gray-400 mb-4 text-sm leading-relaxed">
+                {t('project5.project1-description')}
+              </p>
+              
+              <div className="flex flex-wrap gap-2 mb-6">
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  Java
+                </span>
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  GUI
+                </span>
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  Algorithms
+                </span>
+              </div>
+              
+              <div className="flex space-x-3">
+                <Button 
+                  size="sm" 
+                  variant="outline" 
+                  className="flex-1 border-gray-600 hover:border-blue-400 hover:bg-blue-600/10 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <Github size={16} className="mr-2" />
+                    Code
+                  </a>
+                </Button>
+                <Button 
+                  size="sm" 
+                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Demo
+                  </a>
+                </Button>
+              </div>
+            </div>
+          </div>
+
+          {/* To add more projects, copy this template and change the project number:
+          
+          <div 
+            className={`group relative bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-700 ease-out hover:scale-105 transform ${
+              isVisible 
+                ? 'translate-y-0 opacity-100' 
+                : 'translate-y-12 opacity-0'
+            }`}
+            style={{
+              transitionDelay: `${0.2 + 5 * 0.15}s` // Change the index (5) for each new project
+            }}
+          >
+            <div className="relative overflow-hidden">
+              <img 
+                src="/api/placeholder/400/300" 
+                alt={t('project6.project1-title')} // Change project number
+                className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/20 group-hover:bg-black/0 transition-colors duration-300"></div>
+            </div>
+            
+            <div className="p-6">
+              <h3 className="text-xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
+                {t('project6.project1-title')} // Change project number
+              </h3>
+              <p className="text-gray-400 mb-4 text-sm leading-relaxed">
+                {t('project6.project1-description')} // Change project number
+              </p>
+              
+              <div className="flex flex-wrap gap-2 mb-6">
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  Tag1
+                </span>
+                <span className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-full text-xs font-medium border border-blue-600/30">
+                  Tag2
+                </span>
+              </div>
+              
+              <div className="flex space-x-3">
+                <Button 
+                  size="sm" 
+                  variant="outline" 
+                  className="flex-1 border-gray-600 hover:border-blue-400 hover:bg-blue-600/10 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <Github size={16} className="mr-2" />
+                    Code
+                  </a>
+                </Button>
+                <Button 
+                  size="sm" 
+                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
+                  asChild
+                >
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    Demo
+                  </a>
+                </Button>
+              </div>
+            </div>
+          </div>
+          */}
+        </div>
       </div>
     </section>
   );
