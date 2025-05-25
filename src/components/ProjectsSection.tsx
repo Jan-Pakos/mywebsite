@@ -65,7 +65,7 @@ const ProjectsSection = () => {
           >
             <div className="relative overflow-hidden">
               <img 
-                src="../../images/systemvetardagen.jpeg" 
+                src="./images/systemvetardagen.jpeg" 
                 alt={t('project1.project1-title')}
                 className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
               />
@@ -97,8 +97,7 @@ const ProjectsSection = () => {
                   asChild
                 >
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <Github size={16} className="mr-2" />
-                    Code
+                    {t('button.code-button')}
                   </a>
                 </Button>
               </div>
@@ -150,8 +149,7 @@ const ProjectsSection = () => {
                   asChild
                 >
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <Github size={16} className="mr-2" />
-                    Code
+                    {t('button.code-button')}
                   </a>
                 </Button>
               </div>
@@ -203,8 +201,7 @@ const ProjectsSection = () => {
                   asChild
                 >
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <Github size={16} className="mr-2" />
-                    Code
+                    {t('button.code-button')}
                   </a>
                 </Button>
                 
@@ -314,8 +311,7 @@ const ProjectsSection = () => {
                   asChild
                 >
                   <a href="#" target="_blank" rel="noopener noreferrer">
-                    <Github size={16} className="mr-2" />
-                    Code
+                      {t('button.code-button')}
                   </a>
                 </Button>
                 
