@@ -73,7 +73,7 @@ const Navigation = () => {
               
               {/* Dropdown Menu */}
               <div 
-                className={`absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg border border-gray-200 transition-all duration-200 ease-out origin-top-right ${
+                className={`absolute right-0 mt-2 w-48 backdrop-blur-md bg-white/30 rounded-md shadow-lg border border-gray-200 transition-all duration-200 ease-out origin-top-right ${
                   isDropdownOpen 
                     ? 'opacity-100 scale-100 translate-y-0' 
                     : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'
@@ -87,7 +87,7 @@ const Navigation = () => {
                       className={`w-full text-left px-4 py-2 text-sm transition-colors duration-150 flex items-center space-x-3 ${
                         currentLanguage.code === language.code
                           ? 'bg-blue-50 text-blue-700 font-medium'
-                          : 'text-gray-700 hover:bg-gray-50'
+                          : 'text-white hover:bg-white/20'
                       }`}
                     >
                       
