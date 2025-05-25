@@ -101,15 +101,6 @@ const ProjectsSection = () => {
                     Code
                   </a>
                 </Button>
-                <Button 
-                  size="sm" 
-                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
-                  asChild
-                >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Demo
-                  </a>
-                </Button>
               </div>
             </div>
           </div>
@@ -161,15 +152,6 @@ const ProjectsSection = () => {
                   <a href="#" target="_blank" rel="noopener noreferrer">
                     <Github size={16} className="mr-2" />
                     Code
-                  </a>
-                </Button>
-                <Button 
-                  size="sm" 
-                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
-                  asChild
-                >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Demo
                   </a>
                 </Button>
               </div>
@@ -225,15 +207,7 @@ const ProjectsSection = () => {
                     Code
                   </a>
                 </Button>
-                <Button 
-                  size="sm" 
-                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
-                  asChild
-                >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Demo
-                  </a>
-                </Button>
+                
               </div>
             </div>
           </div>
@@ -287,15 +261,7 @@ const ProjectsSection = () => {
                     Code
                   </a>
                 </Button>
-                <Button 
-                  size="sm" 
-                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
-                  asChild
-                >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Demo
-                  </a>
-                </Button>
+                
               </div>
             </div>
           </div>
@@ -352,15 +318,7 @@ const ProjectsSection = () => {
                     Code
                   </a>
                 </Button>
-                <Button 
-                  size="sm" 
-                  className="flex-1 bg-blue-600 hover:bg-blue-700 text-white"
-                  asChild
-                >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
-                    Demo
-                  </a>
-                </Button>
+                
               </div>
             </div>
           </div>
