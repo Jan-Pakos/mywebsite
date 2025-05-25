@@ -1,6 +1,16 @@
 import { useEffect, useRef, useState } from 'react';
-import { Code, Database, FileCode, GitBranch, Terminal, Globe, Coffee, Zap } from 'lucide-react';
+import { GitBranch,Coffee, } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+
+import TypescriptIcon from '.images/icons/typescript.svg';
+import DjangoIcon from '.images/icons/django.svg';
+import PythonIcon from '.images/icons/python.svg';
+import ReactIcon from '.images/icons/react.svg';
+import FlaskIcon from '.images/icons/flask.svg';
+import NodejsIcon from '.images/icons/node-js.svg';
+import SQLIcon from '.images/icons/node-js.svg';
+
+
 
 const SkillsSection = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -9,17 +19,18 @@ const SkillsSection = () => {
   const { t } = useTranslation();
 
   const proficientSkills = [
-    { name: 'TypeScript', icon: FileCode },
-    { name: 'Node.js', icon: Terminal },
-    { name: 'Python', icon: Code },
+    { name: 'TypeScript', icon: TypescriptIcon },
+    { name: 'Django', icon: DjangoIcon },
     { name: 'Git', icon: GitBranch },
-    { name: 'SQL', icon: Database },
+    { name: 'SQL', icon: SQLIcon },
     { name: 'Java', icon: Coffee },
+    { name: 'Python', icon: PythonIcon },
   ];
 
   const familiarSkills = [
-    { name: 'React', icon: Globe },
-    { name: 'Flask', icon: Zap },
+    { name: 'React', icon: ReactIcon },
+    { name: 'Flask', icon: FlaskIcon },
+    { name: 'Node.js', icon: NodejsIcon },
   ];
 
   useEffect(() => {
@@ -75,7 +86,7 @@ const SkillsSection = () => {
                           : 'translate-y-8 opacity-0'
                       }`}
                       style={{
-                        transitionDelay: `0.1s`,
+                        transitionDelay: `0s`,
                         transitionDuration: '400ms'
                       }}
                     >
@@ -106,7 +117,7 @@ const SkillsSection = () => {
                           : 'translate-y-8 opacity-0'
                       }`}
                       style={{
-                        transitionDelay: `0.1s`,
+                        transitionDelay: `0s`,
                         transitionDuration: '400ms'
                       }}
                     >
