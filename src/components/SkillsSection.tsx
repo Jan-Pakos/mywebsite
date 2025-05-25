@@ -75,8 +75,8 @@ const SkillsSection = () => {
                           : 'translate-y-8 opacity-0'
                       }`}
                       style={{
-                        transitionDelay: `0.4s`,
-                        transitionDuration: '700ms'
+                        transitionDelay: `0.1s`,
+                        transitionDuration: '400ms'
                       }}
                     >
                       <IconComponent className="w-8 h-8 text-blue-400 mx-auto mb-2" />
@@ -106,8 +106,8 @@ const SkillsSection = () => {
                           : 'translate-y-8 opacity-0'
                       }`}
                       style={{
-                        transitionDelay: `0.4s`,
-                        transitionDuration: '700ms'
+                        transitionDelay: `0.1s`,
+                        transitionDuration: '400ms'
                       }}
                     >
                       <IconComponent className="w-8 h-8 text-purple-400 mx-auto mb-2" />

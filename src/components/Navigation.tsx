@@ -75,7 +75,7 @@ const Navigation = () => {
               <div 
                 className={`absolute right-0 mt-2 w-48 rounded-md shadow-lg border border-gray-700
               transition-all duration-200 ease-out origin-top-right
-              backdrop-blur-md bg-black/50 ${
+              backdrop-blur-md bg-black/80 ${
                   isDropdownOpen 
                     ? 'opacity-100 scale-100 translate-y-0' 
                     : 'opacity-0 scale-95 -translate-y-2 pointer-events-none'
