@@ -28,6 +28,7 @@ const SkillsSection = () => {
     { name: 'SQL', icon: Database },
     { name: 'Java', icon: Coffee },
     { name: 'Python', icon: Braces },
+    { name: 'SQLite', icon: Database },
   ];
 
   const familiarSkills = [
