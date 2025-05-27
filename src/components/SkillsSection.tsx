@@ -34,6 +34,7 @@ const SkillsSection = () => {
     { name: 'React', icon: Globe },
     { name: 'Flask', icon: Frame },
     { name: 'Node.js', icon: Frame },
+    { name: 'MongoDB', icon: Database },
   ];
 
   useEffect(() => {
