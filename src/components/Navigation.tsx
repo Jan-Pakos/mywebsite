@@ -49,7 +49,7 @@ const Navigation = () => {
             </Button>
             
             <Button variant="ghost" size="sm" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/jan-p-b065a2127/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>
