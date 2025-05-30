@@ -307,19 +307,9 @@ const ProjectsSection = () => {
                 <Button 
                   size="sm"
                   variant="ghost"  
-                  className="
-                  px-3 py-1
-                  bg-blue-600/20
-                  text-blue-400
-                  rounded-full
-                  text-xs
-                  font-medium
-                  border
-                  flex-1
-                  hover:bg-blue-600/30
-                  hover:text-blue-300
-                  hover:border-blue-600/40
-                "
+                  className="bg-emerald-600 hover:bg-emerald-400 text-white font-bold 
+                  py-2 px-4 border-b-4 border-emerald-100 hover:border-emerald-50 
+                  rounded"
                   asChild
                 >
                   <a href="#" target="_blank" rel="noopener noreferrer">
