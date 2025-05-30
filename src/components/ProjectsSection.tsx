@@ -306,7 +306,7 @@ const ProjectsSection = () => {
               <div className="flex space-x-3">
                 <Button 
                   size="sm"
-                  variant="ghost"  
+                  variant="deafult"  
                   className="bg-emerald-600 hover:bg-emerald-400 text-white font-bold 
                   py-2 px-4 border-b-4 border-emerald-100 hover:border-emerald-50 
                   rounded"
