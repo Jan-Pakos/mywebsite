@@ -276,7 +276,7 @@ const ProjectsSection = () => {
           >
             <div className="relative overflow-hidden">
               <img 
-                src="/api/placeholder/400/300" 
+                src="./images/pathfinder.png" 
                 alt={t('project5.project1-title')}
                 className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
               />
