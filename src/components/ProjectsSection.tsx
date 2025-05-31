@@ -276,7 +276,7 @@ const ProjectsSection = () => {
           >
             <div className="relative overflow-hidden">
               <img 
-                src="./images/pathfinder.png" 
+                src="./images/pathfinder.webp" 
                 alt={t('project5.project1-title')}
                 className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
               />
