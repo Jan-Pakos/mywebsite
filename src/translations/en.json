@@ -7,7 +7,7 @@
     "greeting": "Hello, I'm",
     "name": "Jan Pakos",
     "title": "Software Engineer",
-    "description": "I am a dedicated software developer with a strong focus on building modern web applications. My expertise includes creating efficient, scalable, and user-centric solutions. While I specialize in backend development with Python and Java, I am also proficient in frontend and full-stack development. I am open to exploring opportunities that align with my skills and interests. Additionally, I am an amateur fitness enthusiast and football player." 
+    "description": "I find enjoy writing code that performs and scales well, and the problem-solving process itself is what makes it interesting for me. While I primarily enjoy writing backend code, I also have the ability to create web interfaces that showcase the results of my backend work. Currently, my primary strengths lie in Java and Python, but I recently discovered Go, which I’m learning due to its exceptional performance and relative simplicity." 
   },
   "skills": {
     "title": "Technical Skills",

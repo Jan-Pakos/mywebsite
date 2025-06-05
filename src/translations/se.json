@@ -7,7 +7,7 @@
     "greeting": "Hej, jag heter",
     "name": "Jan Pakos",
     "title": "Mjukvaruutvecklare",
-    "description": "Jag är en dedikerad mjukvaruutvecklare med ett starkt fokus på att bygga moderna webbapplikationer. Min expertis omfattar att skapa effektiva, skalbara och användarcentrerade lösningar. Även om jag är specialiserad på backend-utveckling med Python och Java, är jag också skicklig på frontend- och fullstack-utveckling. Jag är öppen för att utforska möjligheter som ligger i linje med mina färdigheter och intressen. Dessutom är jag en amatörmässig fitnessentusiast och fotbollsspelare." 
+    "description": "Jag tycker om att skriva kod som fungerar och skalar bra, och det är själva problemlösningsprocessen som gör det intressant för mig. Även om jag främst tycker om att skriva backend-kod har jag också förmågan att skapa webbgränssnitt som visar upp resultaten av mitt backend-arbete. För närvarande ligger mina främsta styrkor i Java och Python, men jag har nyligen upptäckt Go, som jag lär mig på grund av dess exceptionella prestanda och relativa enkelhet." 
   },
   "skills": {
     "title": "Tekniska färdigheter",
