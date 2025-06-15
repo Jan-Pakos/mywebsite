@@ -104,7 +104,7 @@ const ProjectsSection = () => {
             </div>
           </div>
 
-          {/* Project 2 */}
+          {/*Project 2
           <div 
             className={`group relative bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-700 ease-out hover:scale-105 transform ${
               isVisible 
@@ -155,8 +155,9 @@ const ProjectsSection = () => {
               </div>
             </div>
           </div>
-
-          {/* Project 3 */}
+          
+          
+           Project 3 
           <div 
             className={`group relative bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-700 ease-out hover:scale-105 transform ${
               isVisible 
@@ -207,8 +208,9 @@ const ProjectsSection = () => {
                 
               </div>
             </div>
-          </div>
-
+          </div> */}
+          
+            
           {/* Project 4 */}
           <div 
             className={`group relative bg-gray-800/50 rounded-xl overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-700 ease-out hover:scale-105 transform ${
