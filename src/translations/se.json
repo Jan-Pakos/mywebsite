@@ -7,7 +7,7 @@
     "greeting": "Hej, jag heter",
     "name": "Jan Pakos",
     "title": "Mjukvaruutvecklare",
-    "description": "Jag tycker om att skriva kod som fungerar och skalar bra, och det är själva problemlösningsprocessen som gör det intressant för mig. Även om jag främst tycker om att skriva backend-kod har jag också förmågan att skapa webbgränssnitt som visar upp resultaten av mitt backend-arbete. För närvarande ligger mina främsta styrkor i Java och Python, men jag har nyligen upptäckt Go, som jag lär mig på grund av dess exceptionella prestanda och relativa enkelhet." 
+    "description": "Jag tycker om att skriva kod som fungerar och skalar bra, och det är själva problemlösningsprocessen som gör det intressant för mig. Även om jag främst tycker om att skriva backend-kod har jag också förmågan att skapa webbgränssnitt som visar upp resultaten av mitt backend-arbete. För närvarande känner jag mig mest bekväm med Java och Python, men jag förbättrar också aktivt mina kunskaper i Node.js och Go." 
   },
   "skills": {
     "title": "Tekniska färdigheter",

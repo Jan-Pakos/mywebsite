@@ -7,7 +7,7 @@
     "greeting": "Witaj, jestem",
     "name": "Jan Pakos",
     "title": "Informatyk Deweloper",
-    "description": "Lubię pisać kod, który działa i dobrze się skaluje, a sam proces rozwiązywania problemów jest dla mnie interesujący. Chociaż przede wszystkim lubię pisać kod backendowy, potrafię również tworzyć interfejsy internetowe, które prezentują wyniki mojej pracy backendowej. Obecnie moimi mocnymi stronami są Java i Python, ale niedawno odkryłem Go, którego uczę się ze względu na jego wyjątkową wydajność i względną prostotę." 
+    "description": "Lubię pisać kod, który działa i dobrze się skaluje, a sam proces rozwiązywania problemów jest dla mnie interesujący. Chociaż przede wszystkim lubię pisać kod backendowy, potrafię również tworzyć interfejsy internetowe, które prezentują wyniki mojej pracy backendowej. Obecnie najlepiej czuję się w Javie i Pythonie, ale aktywnie pogłębiam swoją wiedzę w Node.js i Go." 
   },
   "skills": {
     "title": "Umiejętności Techniczne",

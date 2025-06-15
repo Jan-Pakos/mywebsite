@@ -7,7 +7,7 @@
     "greeting": "Hello, I'm",
     "name": "Jan Pakos",
     "title": "Software Engineer",
-    "description": "I find enjoy writing code that performs and scales well, and the problem-solving process itself is what makes it interesting for me. While I primarily enjoy writing backend code, I also have the ability to create web interfaces that showcase the results of my backend work. Currently, my primary strengths lie in Java and Python, but I recently discovered Go, which I’m learning due to its exceptional performance and relative simplicity." 
+    "description": "I find enjoy writing code that performs and scales well, and the problem-solving process itself is what makes it interesting for me. While I primarily enjoy writing backend code, I also have the ability to create web interfaces that showcase the results of my backend work. Currently, I'm feeling most comfortable with Java and Python, but I'm also actively improving my Node.js and Go knowledge." 
   },
   "skills": {
     "title": "Technical Skills",
