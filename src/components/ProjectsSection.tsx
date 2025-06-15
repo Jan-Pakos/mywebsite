@@ -312,7 +312,7 @@ const ProjectsSection = () => {
                   rounded"
                   asChild
                 >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Jan-Pakos/PathFinder/tree/main" target="_blank" rel="noopener noreferrer">
                       {t('button.code-button')}
                   </a>
                 </Button>
