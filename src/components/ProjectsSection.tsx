@@ -253,7 +253,7 @@ const ProjectsSection = () => {
                   className="flex-1 border-gray-600 hover:border-blue-400 hover:bg-blue-600/10 text-white"
                   asChild
                 >
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Jan-Pakos/DogRegistry/tree/main" target="_blank" rel="noopener noreferrer">
                     {t('button.code-button')}
                    
                   </a>
