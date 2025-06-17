@@ -22,7 +22,6 @@ const SkillsSection = () => {
 
 
   const proficientSkills = [
-    { name: 'TypeScript', icon: Braces },
     { name: 'Django', icon: Frame },
     { name: 'Git', icon: GitBranch },
     { name: 'SQL', icon: Database },
@@ -34,8 +33,7 @@ const SkillsSection = () => {
   const familiarSkills = [
     { name: 'React', icon: Globe },
     { name: 'Flask', icon: Frame },
-    { name: 'Node.js', icon: Frame },
-    { name: 'MongoDB', icon: Database },
+    { name: 'TypeScript', icon: Braces },
   ];
 
   useEffect(() => {
