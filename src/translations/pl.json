@@ -45,7 +45,9 @@
   },
   "education": {
     "title": "Edukacja i Certyfikaty",
-    "description": "Moje wykształcenie, ukończone kursy i zdobyte certyfikaty, które ukształtowały moją wiedzę techniczną."
+    "description": "Tutaj możesz zobaczyć moje wyższe wykształcenie, a także kursy i certyfikaty, które podjąłem z własnej inicjatywy, aby poszerzyć swoją wiedzę i zrozumienie.",
+    "formaleducation": "Wyższe Wykształcenie",
+    "courses-certifications": "Kursy i Certyfikaty"
   },
   "degreefinance": {
     "title": "Licencjat z Zarządzania (Finanse)",

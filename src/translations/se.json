@@ -45,7 +45,9 @@
   },
   "education": {
     "title": "Utbildning & Certifieringar",
-    "description": "Min akademiska bakgrund, kurser och certifieringar som har format min tekniska kunskap."
+    "description": "Här kan du se min högre utbildning, samt kurser och certifieringar som jag tagit på eget initiativ för att utöka min kunskap och förståelse.",
+    "formaleducation": "Formell Utbildning",
+    "courses-certifications": "Kurser och Certifieringar"
   },
   "degreefinance": {
     "title": "Kandidatexamen i företagsekonomi (finans)",
