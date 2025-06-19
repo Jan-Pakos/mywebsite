@@ -66,6 +66,11 @@
     "title": "CS50's Web Programming with Python and JavaScript",
     "institution": "HarvardX (edx.org)",
     "description": "Tworzenie aplikacji webowych z użyciem Django, React i SQL. Tematy obejmują projektowanie baz danych, skalowalność, bezpieczeństwo oraz doświadczenie użytkownika (UX)."
+  },
+    "springcourse": {
+    "title": "Spring Boot 3, Spring 6 & Hibernate for Beginners",
+    "institution": "Udemy",
+    "description": "Kurs ten zapewnił kompleksowe, dogłębne zapoznanie się z tworzeniem aplikacji enterprise przy użyciu Spring Boot i Hibernate. Rozwinąłem umiejętności w zakresie tworzenia solidnych interfejsów API RESTful, zarządzania trwałością danych za pomocą JPA i Spring Data JPA, zabezpieczania aplikacji za pomocą Spring Security (w tym uwierzytelniania JDBC i szyfrowania haseł) oraz projektowania dynamicznych interfejsów internetowych przy użyciu Spring MVC i Thymeleaf. Kluczowe obszary nauki obejmowały również Maven do automatyzacji kompilacji, koncepcje Spring Core, takie jak IoC / DI, oraz programowanie aspektowe w celu zwiększenia modułowości."
   }
   
 }
