@@ -66,6 +66,11 @@
     "title": "CS50's Web Programming with Python and JavaScript",
     "institution": "HarvardX (edx.org)",
     "description": "Webbutveckling med Django, React och SQL. Ämnena inkluderar databasdesign, skalbarhet, säkerhet och användarupplevelse."
+  },
+    "springcourse": {
+    "title": "Spring Boot 3, Spring 6 & Hibernate for Beginners",
+    "institution": "Udemy",
+    "description": "Den här kursen gav en omfattande djupdykning i att bygga applikationer i enterprise-klass med Spring Boot och Hibernate. Jag utvecklade färdigheter i att skapa robusta RESTful API:er, hantera datapersistens med JPA och Spring Data JPA, säkra applikationer med Spring Security (inklusive JDBC-autentisering och lösenordskryptering) och utforma dynamiska webbgränssnitt med hjälp av Spring MVC och Thymeleaf. Viktiga inlärningsområden inkluderade också Maven för byggautomatisering, Spring Core-koncept som IoC/DI och aspektorienterad programmering för förbättrad modularitet."
   }
   
 }
