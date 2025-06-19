@@ -189,6 +189,28 @@ const EducationSection = () => {
                 </div>
               </div>
 
+              {/* Certification Item 3 */}
+              <div 
+                className={`relative pl-8 pb-8 transform transition-all duration-700 ease-out ${
+                  isVisible 
+                    ? 'translate-y-0 opacity-100' 
+                    : 'translate-y-8 opacity-0'
+                }`}
+                style={{transitionDelay: '0.9s'}}
+              >
+                <div className="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full border-4 border-gray-800"></div>
+                <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-blue-500/20">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-xl font-bold text-white">{t('springcourse.title')}</h3>
+                    <span className="text-blue-400 text-sm font-medium px-3 py-1 bg-blue-600/20 rounded-full border border-blue-600/30">
+                      2025
+                    </span>
+                  </div>
+                  <p className="text-blue-400 font-medium mb-3">{t('springcourse.institution')}</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">{t('springcourse.description')}</p>
+                </div>
+              </div>
+
               {/* To add more certification items, copy this template:
               
               <div 
