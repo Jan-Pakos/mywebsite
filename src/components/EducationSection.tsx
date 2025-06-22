@@ -144,39 +144,39 @@ const EducationSection = () => {
                 transformOrigin: 'top',
                 transitionDelay: '0.35s'
               }}></div>
-              
-              {/* Certification Item 1 */}
+
+              {/* Spring Boot Course */}
               <div 
                 className={`relative pl-8 pb-8 transform transition-all duration-700 ease-out ${
                   isVisible 
                     ? 'translate-y-0 opacity-100' 
                     : 'translate-y-8 opacity-0'
                 }`}
-                style={{transitionDelay: '0.7s'}}
+                style={{transitionDelay: '0.75s'}}
               >
                 <div className="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full border-4 border-gray-800"></div>
                 <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-blue-500/20">
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-xl font-bold text-white">
                       <a 
-                        href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science" 
+                        href="https://www.udemy.com/share/101Wc43@_Mlr9wFOsFKmV0RSJDKwTzJmSD-9IuKAcElWqTa0t7tMmW16TWmc8i5yvWf0gtmrMA==/" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="hover:underline cursor-pointer"
                       >
-                        {t('coursecs50.title')}
+                        {t('springcourse.title')}
                       </a>
                     </h3>
                     <span className="text-blue-400 text-sm font-medium px-3 py-1 bg-blue-600/20 rounded-full border border-blue-600/30">
-                      2023
+                      2025
                     </span>
                   </div>
-                  <p className="text-blue-400 font-medium mb-3">{t('coursecs50.institution')}</p>
-                  <p className="text-gray-400 text-sm leading-relaxed">{t('coursecs50.description')}</p>
+                  <p className="text-blue-400 font-medium mb-3">{t('springcourse.institution')}</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">{t('springcourse.description')}</p>
                 </div>
               </div>
 
-              {/* Certification Item 2 */}
+              {/* CS50W Course */}
               <div 
                 className={`relative pl-8 pb-8 transform transition-all duration-700 ease-out ${
                   isVisible 
@@ -206,37 +206,39 @@ const EducationSection = () => {
                   <p className="text-gray-400 text-sm leading-relaxed">{t('coursecs50w.description')}</p>
                 </div>
               </div>
-
-              {/* Certification Item 3 */}
+              
+              {/* CS50X Course */}
               <div 
                 className={`relative pl-8 pb-8 transform transition-all duration-700 ease-out ${
                   isVisible 
                     ? 'translate-y-0 opacity-100' 
                     : 'translate-y-8 opacity-0'
                 }`}
-                style={{transitionDelay: '0.9s'}}
+                style={{transitionDelay: '0.95s'}}
               >
                 <div className="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full border-4 border-gray-800"></div>
                 <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-blue-500/20">
                   <div className="flex justify-between items-start mb-2">
                     <h3 className="text-xl font-bold text-white">
                       <a 
-                        href="https://www.udemy.com/share/101Wc43@_Mlr9wFOsFKmV0RSJDKwTzJmSD-9IuKAcElWqTa0t7tMmW16TWmc8i5yvWf0gtmrMA==/" 
+                        href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="hover:underline cursor-pointer"
                       >
-                        {t('springcourse.title')}
+                        {t('coursecs50.title')}
                       </a>
                     </h3>
                     <span className="text-blue-400 text-sm font-medium px-3 py-1 bg-blue-600/20 rounded-full border border-blue-600/30">
-                      2025
+                      2023
                     </span>
                   </div>
-                  <p className="text-blue-400 font-medium mb-3">{t('springcourse.institution')}</p>
-                  <p className="text-gray-400 text-sm leading-relaxed">{t('springcourse.description')}</p>
+                  <p className="text-blue-400 font-medium mb-3">{t('coursecs50.institution')}</p>
+                  <p className="text-gray-400 text-sm leading-relaxed">{t('coursecs50.description')}</p>
                 </div>
               </div>
+
+              
 
               {/* To add more certification items, copy this template:
               
