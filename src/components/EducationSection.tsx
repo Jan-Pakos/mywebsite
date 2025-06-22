@@ -157,7 +157,16 @@ const EducationSection = () => {
                 <div className="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full border-4 border-gray-800"></div>
                 <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-blue-500/20">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-bold text-white">{t('coursecs50.title')}</h3>
+                    <h3 className="text-xl font-bold text-white">
+                      <a 
+                        href="https://www.edx.org/learn/computer-science/harvard-university-cs50-s-introduction-to-computer-science" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:underline cursor-pointer"
+                      >
+                        {t('coursecs50.title')}
+                      </a>
+                    </h3>
                     <span className="text-blue-400 text-sm font-medium px-3 py-1 bg-blue-600/20 rounded-full border border-blue-600/30">
                       2023
                     </span>
@@ -179,7 +188,16 @@ const EducationSection = () => {
                 <div className="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full border-4 border-gray-800"></div>
                 <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-blue-500/20">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-bold text-white">{t('coursecs50w.title')}</h3>
+                    <h3 className="text-xl font-bold text-white">
+                      <a 
+                        href="https://www.edx.org/learn/web-development/harvard-university-cs50-s-web-programming-with-python-and-javascript" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:underline cursor-pointer"
+                      >
+                        {t('coursecs50w.title')}
+                      </a>
+                    </h3>
                     <span className="text-blue-400 text-sm font-medium px-3 py-1 bg-blue-600/20 rounded-full border border-blue-600/30">
                       2024
                     </span>
@@ -201,7 +219,16 @@ const EducationSection = () => {
                 <div className="absolute left-0 top-2 w-4 h-4 bg-blue-500 rounded-full border-4 border-gray-800"></div>
                 <div className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-blue-500 transition-all duration-300 hover:scale-[1.02] shadow-lg hover:shadow-blue-500/20">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl font-bold text-white">{t('springcourse.title')}</h3>
+                    <h3 className="text-xl font-bold text-white">
+                      <a 
+                        href="https://www.udemy.com/share/101Wc43@_Mlr9wFOsFKmV0RSJDKwTzJmSD-9IuKAcElWqTa0t7tMmW16TWmc8i5yvWf0gtmrMA==/" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="hover:underline cursor-pointer"
+                      >
+                        {t('springcourse.title')}
+                      </a>
+                    </h3>
                     <span className="text-blue-400 text-sm font-medium px-3 py-1 bg-blue-600/20 rounded-full border border-blue-600/30">
                       2025
                     </span>
